@@ -11,7 +11,7 @@ public class Task2 {
         System.out.println("Число c в десятичной системе: " + c);
         System.out.println("Число d в шестнадцатеричной системе: " + d);
         System.out.println("Тип double в классическом виде: " + a);
-        String Float = null;
+        String Float = String.valueOf(1);
         System.out.println("Тип float в классическом виде: " + Float);
     }
 

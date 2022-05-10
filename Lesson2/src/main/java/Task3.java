@@ -1,5 +1,7 @@
 public class Task3 {
     public static void main(String[] args) {
-        System.out.println(24+26);
+       int a = 5;
+       int b = 10;
+        System.out.println(a+b);
     }
 }
