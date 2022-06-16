@@ -3,7 +3,7 @@ import java.util.Random;
 public class Task4 {
     public static void main(String[] args) {
         Random rnd = new Random();
-        int a = rnd.nextInt(28800);
+        int a = rnd.nextInt(28800 + 1);
         int b = a / 60 / 60;
         System.out.println("Sekynd ostalos " + a);
         switch (b) {
